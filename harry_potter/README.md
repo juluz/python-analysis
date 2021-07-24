@@ -23,16 +23,16 @@ Este dataset contem dados de 140 personagens, o que representa uma amostra de ap
 ## Quais perguntas queremos responder?
 
 Dessa amostra:
-1- Quantos personagens femininos e masculinos? 
-2- Quantos personagens femininos e masculinos por escola? 
-3- Relação de Loyality x Escola 
-4- Relação de Loyality x Species 
-5- Qual skill mais comum por escola? 
-6- Quantidade de Skills x House
-7- Quantidade de Skills x Blood Status
-8- Quantidade de Skills x Loyalty
-9- Média de idade morte x quantidade de skills
-10- Quantidade de ancestry por Escola
+1- Quantos personagens femininos e masculinos? <br>
+2- Quantos personagens femininos e masculinos por escola? <br>
+3- Relação de Loyality x Escola <br>
+4- Relação de Loyality x Species <br>
+5- Qual skill mais comum por escola? <br>
+6- Quantidade de Skills x House <br>
+7- Quantidade de Skills x Blood Status <br>
+8- Quantidade de Skills x Loyalty <br>
+9- Média de idade morte x quantidade de skills <br>
+10- Quantidade de ancestry por Escola <br>
 
 ## Resultados
 
