@@ -13,7 +13,8 @@
 
 - [Contexto](#Contexto)
 - [Quais perguntas queremos responder?](#Quais-perguntas-queremos-responder?)
-- [Resultados](#Resultados)
+- [Gráficos](#Resultados)
+- [Conclusões](#Conclusões)
 
 
 ## Contexto
@@ -23,33 +24,33 @@ Este dataset contem dados de 140 personagens, o que representa uma amostra de ap
 ## Quais perguntas queremos responder?
 
 Dessa amostra:
-1- Quantos personagens femininos e masculinos? <br>
-2- Quantos personagens femininos e masculinos por escola? <br>
-3- Relação de Loyality x Escola <br>
-4- Relação de Loyality x Species <br>
-5- Qual skill mais comum por escola? <br>
-6- Quantidade de Skills x House <br>
-7- Quantidade de Skills x Blood Status <br>
-8- Quantidade de Skills x Loyalty <br>
-9- Média de idade morte x quantidade de skills <br>
-10- Quantidade de ancestry por Escola <br>
+1- How many character by gender? <br>
+2-How many caracter by House and Gender? <br>
+3-How many caracter by House and Loyalty? <br>
+4-How many caracter by House and Blood-Status? <br>
+5-How many caracter by Specie and Loyalty? <br>
+6- What is the most comoon skill by House? <br>
+7- Quantity of Skills x House <br>
+8- Quantity of Skills x Blood Status <br>
+9- Quantity of Skills x Loyalty <br>
+10- Distribuition of age death <br>
 
-## Resultados
+## Gráficos
 
-1- Quantos personagens femininos e masculinos?
+1- How many character by gender?
 
 ![graph](image/gender.png "gender.png")<br>
 
-2- Quantos personagens femininos e masculinos por escola? <br>
+2-How many caracter by House and Gender?  <br>
 ![graph](image/house.png "house.png")<br>
 
-3- Relação de Loyality x Escola <br>
+3-How many caracter by House and Loyalty?  <br>
 ![graph](image/house_loyalt.png "house_loyalt.png")<br>
 
-4- Relação de Loyality x Species <br>
+4-How many caracter by House and Blood-Status? <br>
 ![graph](image/specie_loyalt.png)<br>
 
-5- Qual skill mais comum por escola? <br>
+5-How many caracter by Specie and Loyalty? <br>
 
 #### Gryffindor
 ![alt text](image/gryffindor_wc.jpg "gryffindor_wc.jpg")
@@ -63,14 +64,37 @@ Dessa amostra:
 #### Ravenclaw
 ![alt text](image/ravenclaw_wc.jpg "ravenclaw_wc.jpg")
 
-
-6- Quantidade de Skills x House <br>
+6- What is the most comoon skill by House? <br>
 ![graph](image/hist_house.png "hist_house.png")<br>
 
-![graph](image/hist_house_gender.png "hist_house_gender.png")<br>
-
-8- Quantidade de Skills x Blood Status <br>
+7- Quantity of Skills x House <br>
 ![graph](image/hist_status.png "hist_status.png")<br>
 
-9- Quantidade de Skills x Loyalty <br>
+8- Quantity of Skills x Blood Status <br>
+![graph](image/hist_loyalty.png "hist_status.png")<br>
+
+9- Quantity of Skills x Loyalty
 ![graph](image/hist_loyalty.png "hist_loyalty.png")<br>
+
+10- Distribuition of age death
+![graph](image/hist_loyalty.png "hist_death_gender.png")<br>
+
+## Conclusão
+
+Através dos gráficos percebemos que entre os personagens, o genero masculino predomina com 65% de participação e feminimo com 35%. Resultado disso, notamos o mesmo cenário quando abrimos por casa em Hogwarts, exceto por  Ravenclaw que apresenta 50% para cada genero.
+
+Sempre se falou que maioria dos comensais da morte vieram da Sonserina, e no gráfico de distribuição de lealdade de cada casa confirmamos exatamente isso, 90.49% dos personagens da Sonserina são comensais da morte. Já na Grifinória, 55.9% são da Ordem da Fenix, 32.4% da Armada de Dumbledore (fundada no 5 livro, a Ordem da Fenix) e também 2.9% de Comensal da Morte: Peter Pettigrew.
+Nota-se um registro de Lord Voldemort estudando na escola Ravenclaw, mas todos sabemos que ele é de Sonserina. Esse é o professor Quirrell, que foi possuido por Lord Voldemor no primeiro livro, a Pedro Filosofal.
+
+O blood status sempre foi muito discutido na história, quando se tratava de tradição e poder, uma parte dos personagens se orgulhava de ser sangue puro e diziam serem melhores que os outros. Aqui vale um teste de hipotese (novo notebook). 
+
+Ao trazer dados das especies por lealdade, observamos que os humanos são a maioria entre cada lealdade e que para Ordem da Fenix aparecem os Lobisomens, Remus e Bill Weasley e nos Comensais da Morte: O temido Greyback.
+
+Para a análise de palavras utilizei nlp, o que nos trouxe seguintes pontos:
+Chaser é um skills comuns tanto para Grifinoria quanto para Sonserina, porém vemos animagos apenas para Grifinória, sendo os bruxos Sirius Black, James Potter, Peter Pettigrew e a bruxa e professora Minerva McGonagall com essa habilidade, e na Sonserina, occlumens:
+Occlumency was the magic of closing one's mind against Legilimency.
+"The magical defence of the mind against external penetration. An obscure branch of magic, but a highly useful one."
+  
+Na Hufflepuff vemos a palavra food, sabemos que a sala comunal dessa casa fica perto da cozinha em Hogwarts e Helga Hufflepuff, foi muito talentosa em feitiços relacionados à comida e muitas de suas receitas ainda são usadas em Hogwarts. E por ultimo Ravenclaw com skill prefect: an older student who is given some authority and helps to control the younger students.
+
+O universo de Harry Potter tem uma infinidade de possíveis análises, para essa análise o objetivo foi explorar de uma maneira geral os dados quantitativos e classificatórios.
