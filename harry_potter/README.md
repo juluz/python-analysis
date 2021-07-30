@@ -31,9 +31,7 @@ Dessa amostra: <br>
 5-How many caracter by Specie and Loyalty? <br>
 6- What is the most comoon skill by House? <br>
 7- Quantity of Skills x House <br>
-8- Quantity of Skills x Blood Status <br>
-9- Quantity of Skills x Loyalty <br>
-10- Distribuition of age death <br>
+8- Distribuition of age death <br>
 
 ## Gráficos
 
@@ -70,17 +68,8 @@ Dessa amostra: <br>
 7- Quantity of Skills x House <br>
 ![graph](image/hist_house.png "hist_house.png")<br>
 
-8- Quantity of Skills x Blood Status <br>
-![graph](image/hist_status.png "hist_status.png")<br>
-
-8- Quantity of Skills x Blood Status <br>
-![graph](image/hist_loyalty.png "hist_status.png")<br>
-
-9- Quantity of Skills x Loyalty <br>
-![graph](image/hist_loyalty.png "hist_loyalty.png")<br>
-
-10- Distribuition of age death <br>
-![graph](image/hist_loyalty.png "hist_death_gender.png")<br>
+8- Distribuition of age death <br>
+![graph](image/hist_death_gender.png "hist_death_gender.png")<br>
 
 ## Conclusão
 
@@ -100,4 +89,8 @@ Occlumency was the magic of closing one's mind against Legilimency.
   
 Na Hufflepuff vemos a palavra food, sabemos que a sala comunal dessa casa fica perto da cozinha em Hogwarts e Helga Hufflepuff, foi muito talentosa em feitiços relacionados à comida e muitas de suas receitas ainda são usadas em Hogwarts. E por ultimo Ravenclaw com skill prefect: an older student who is given some authority and helps to control the younger students.
 
-O universo de Harry Potter tem uma infinidade de possíveis análises, para essa análise o objetivo foi explorar de uma maneira geral os dados quantitativos e classificatórios.
+Falando de distribuição e utilizando o gráfico de histograma ao analisar quantidade de skill e casa observamos maior concentração em personagens com apenas 1 skill, sendo que Grifinória aparece com maior quantidade nessa categoria de 1 skill, seguido por Ravenclaw, Sonserina e Hufflepuff. E no canto direito isoloado aparece com 6 skills, Tom Marvolo Riddle. Porém o personagem de Dumbledore traz nessa coluna um unico skill: Considered by many to be one of the most powerful wizards of his time. 
+
+Ainda olhando para histograma, mas agora sobre a distribuição de idade de morte os personagens concentram-se abaixo de 40 anos de idade, sendo a maioria masculino mas isso é resultado também de ter mais personagens masculinos. O personagem que morreu mais velho é o Dumbledore, com 116 anos.
+
+O universo de Harry Potter tem uma infinidade de possíveis análises, para esta o objetivo foi explorar de uma maneira geral os dados quantitativos e classificatórios.
