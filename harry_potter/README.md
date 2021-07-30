@@ -23,7 +23,7 @@ Este dataset contem dados de 140 personagens, o que representa uma amostra de ap
 
 ## Quais perguntas queremos responder?
 
-Dessa amostra:
+Dessa amostra: <br>
 1- How many character by gender? <br>
 2-How many caracter by House and Gender? <br>
 3-How many caracter by House and Loyalty? <br>
@@ -48,9 +48,12 @@ Dessa amostra:
 ![graph](image/house_loyalt.png "house_loyalt.png")<br>
 
 4-How many caracter by House and Blood-Status? <br>
-![graph](image/specie_loyalt.png)<br>
+![graph](image/specie_loyalt.png "specie_loyalt.png")<br>
 
 5-How many caracter by Specie and Loyalty? <br>
+![graph](image/house_bloods_status.png "house_bloods_status.png")<br>
+
+6- What is the most comoon skill by House? <br>
 
 #### Gryffindor
 ![alt text](image/gryffindor_wc.jpg "gryffindor_wc.jpg")
@@ -64,19 +67,19 @@ Dessa amostra:
 #### Ravenclaw
 ![alt text](image/ravenclaw_wc.jpg "ravenclaw_wc.jpg")
 
-6- What is the most comoon skill by House? <br>
+7- Quantity of Skills x House <br>
 ![graph](image/hist_house.png "hist_house.png")<br>
 
-7- Quantity of Skills x House <br>
+8- Quantity of Skills x Blood Status <br>
 ![graph](image/hist_status.png "hist_status.png")<br>
 
 8- Quantity of Skills x Blood Status <br>
 ![graph](image/hist_loyalty.png "hist_status.png")<br>
 
-9- Quantity of Skills x Loyalty
+9- Quantity of Skills x Loyalty <br>
 ![graph](image/hist_loyalty.png "hist_loyalty.png")<br>
 
-10- Distribuition of age death
+10- Distribuition of age death <br>
 ![graph](image/hist_loyalty.png "hist_death_gender.png")<br>
 
 ## Conclusão
