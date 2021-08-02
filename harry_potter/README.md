@@ -111,7 +111,7 @@ Falando de distribuição e utilizando o gráfico de histograma ao analisar quan
 No canto direito isoloado com 6 skills, Tom Marvolo Riddle,  porém o personagem de Dumbledore traz nessa coluna um único skill: Considered by many to be one of the most powerful wizards of his time. Acho que já diz tudo né?
 </p>
 
-8- Distribuition of age death <br>
+##### 8- Distribuition of age death
 
 <p align="center">
   <img src="image/hist_death_gender.png">
