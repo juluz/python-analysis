@@ -2,54 +2,51 @@
 
 
 
-# O quanto você conhece dos personagens de Harry Potter?
+# How much do you know about the characters from Harry Potter?
 
 <p align="center">
   <img width="460" height="200" src="image/header.jpg">
 </p>
 
 
-## Índice
+## Index
 
-- [Contexto](#Contexto)
-- [Quais perguntas queremos responder?](#Quais-perguntas-queremos-responder?)
-- [Resultados](#Resultados)
+- [Context](#Context)
+- [Which questions do we want to respond to?](#Context)
+- [Results](#Results)
 
 
-## Contexto
-No universo de Harry Potter existem aproximadamente 772 personagens de acordo com [wikipedia](https://en.wikipedia.org/wiki/List_of_Harry_Potter_characters), os dados analisados vieram do [kaggle](https://www.kaggle.com/gulsahdemiryurek/harry-potter-dataset), que por sua vez coletou dos sites [pottermore](pottermore.com) e [fandom](https://harrypotter.fandom.com/wiki/Main_Page).
-Este dataset contem dados de 140 personagens, o que representa uma amostra de aproximadamente 18%, como o objetivo é conhecer mais detalhes sobre os principais personagens foi suficiente para os resultados apresentados.
+## Context
+There are approximately 772 caracteres in the universe of Harry Potter acording to [wikipedia](https://en.wikipedia.org/wiki/List_of_Harry_Potter_characters), the data analyzes came from [kaggle](https://www.kaggle.com/gulsahdemiryurek/harry-potter-dataset), which in turn collected from the websites [pottermore](pottermore.com) e [fandom](https://harrypotter.fandom.com/wiki/Main_Page).
+This dataset contains data of 140 characters, which represent one sample of about 18%, the objective is to know more details about the main characters, so was enough for this analysis.
 
-## Quais perguntas queremos responder?
+## Which questions do we want to respond to?
 
-Dessa amostra:
-1- Quantos personagens femininos e masculinos? 
-2- Quantos personagens femininos e masculinos por escola? 
-3- Relação de Loyality x Escola 
-4- Relação de Loyality x Species 
-5- Qual skill mais comum por escola? 
-6- Quantidade de Skills x House
-7- Quantidade de Skills x Blood Status
-8- Quantidade de Skills x Loyalty
-9- Média de idade morte x quantidade de skills
-10- Quantidade de ancestry por Escola
+1- How many female and male characters? <br>
+2- How many characters by house? <br>
+3- Relation of Loyalty x House <br>
+4- Relation of Loyalty x Species <br>
+5- What is the most common skill by house? <br>
+6- Total Skills by House <br>
+7- Total Skills by Blood Status <br>
+8- Total Skills by Loyalty <br>
 
 ## Resultados
 
-1- Quantos personagens femininos e masculinos?
+1- How many female and male characters?
 
 ![graph](image/gender.png "gender.png")<br>
 
-2- Quantos personagens femininos e masculinos por escola? <br>
+2- How many characters by house? <br>
 ![graph](image/house.png "house.png")<br>
 
-3- Relação de Loyality x Escola <br>
+3- Relation of Loyality x House <br>
 ![graph](image/house_loyalt.png "house_loyalt.png")<br>
 
-4- Relação de Loyality x Species <br>
+4- Relation of Loyality x Species <br>
 ![graph](image/specie_loyalt.png)<br>
 
-5- Qual skill mais comum por escola? <br>
+5- What is the comoon skill for each school? <br>
 
 #### Gryffindor
 ![alt text](image/gryffindor_wc.jpg "gryffindor_wc.jpg")
@@ -64,13 +61,13 @@ Dessa amostra:
 ![alt text](image/ravenclaw_wc.jpg "ravenclaw_wc.jpg")
 
 
-6- Quantidade de Skills x House <br>
+6- Total Skills by House <br>
 ![graph](image/hist_house.png "hist_house.png")<br>
 
 ![graph](image/hist_house_gender.png "hist_house_gender.png")<br>
 
-8- Quantidade de Skills x Blood Status <br>
+7- Total Skills by Blood Status <br>
 ![graph](image/hist_status.png "hist_status.png")<br>
 
-9- Quantidade de Skills x Loyalty <br>
+8- Total Skills by Loyalty <br>
 ![graph](image/hist_loyalty.png "hist_loyalty.png")<br>
