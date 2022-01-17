@@ -28,10 +28,11 @@ This dataset contains data of 140 characters, which represent one sample of abou
 4- Relation of Loyalty x Species <br>
 5- What is the most common skill by house? <br>
 6- Total Skills by House <br>
-7- Total Skills by Blood Status <br>
-8- Total Skills by Loyalty <br>
+7- Skill Average by House <br>
+7- Skill Average by Blood Status <br>
+8- Skill Average by Loyalty <br>
 
-## Resultados
+## Results
 
 1- How many female and male characters?
 
@@ -42,6 +43,8 @@ This dataset contains data of 140 characters, which represent one sample of abou
 
 3- Relation of Loyality x House <br>
 ![graph](image/house_loyalt.png "house_loyalt.png")<br>
+
+- I don't know about you, but I was impressed by how many Death Eater is, Gryffindor and Hufflepuff present the lower percentage.
 
 4- Relation of Loyality x Species <br>
 ![graph](image/specie_loyalt.png)<br>
@@ -64,10 +67,23 @@ This dataset contains data of 140 characters, which represent one sample of abou
 6- Total Skills by House <br>
 ![graph](image/hist_house.png "hist_house.png")<br>
 
-![graph](image/hist_house_gender.png "hist_house_gender.png")<br>
+![graph](image/hist_avg_house.png "hist_avg_house.png")<br>
+
+- In terms of quantity Gryffindor has the greater result, but on the other hand, looking at the average we can see that Beauxbaton is bigger.
+
+
+
+![graph](image/hist_house.png "hist_avg_house.png")<br>
 
 7- Total Skills by Blood Status <br>
 ![graph](image/hist_status.png "hist_status.png")<br>
 
 8- Total Skills by Loyalty <br>
 ![graph](image/hist_loyalty.png "hist_loyalty.png")<br>
+
+
+### Hope you liked it!, Bye ;)
+
+<p align="center">
+  <img width="400" height="250" src="image/goodbye-harrypotter.gif">
+</p>
